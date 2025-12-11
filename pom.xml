@@ -27,6 +27,6 @@
 	<dependency>
 	    <groupId>com.github.DiegoAscanio</groupId>
 	    <artifactId>ascanio-servlets</artifactId>
-	    <version>Tag</version>
+	    <version>v1.0.0</version>
 	</dependency>
 </project>
