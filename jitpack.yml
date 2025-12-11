@@ -1,0 +1,14 @@
+jdk:
+  - openjdk21
+
+maven:
+  version: 3.9.6
+
+install:
+  - mvn clean install -DskipTests
+
+script:
+  - mvn verify
+
+before_script:
+  - echo "Building with Java 21"
